@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+  background-color: #f4a460;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+header h1 {
+  margin: 0;
+  color: #000;
+}
+
+header a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #eee;
+}
+
+/* Network structure */
+.network-structure img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+/* Slideshow */
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slideshow-controls button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.slideshow-controls button:hover {
+  background-color: #555;
+}
